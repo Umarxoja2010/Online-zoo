@@ -1,0 +1,41 @@
+.beautiful{
+    margin-bottom: 26px;
+}
+.beautiful h2{
+    font-family: var(--third-family);
+font-weight: 400;
+font-size: 18px;
+text-transform: uppercase;
+color: var(--black);
+margin-bottom: 25px;
+}
+.beautiful_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.beautiful_wrapper img{
+    cursor: pointer;
+}
+.beautiful_wrapper img:hover{
+    transform: scale(1.1);
+}
+.beautiful_wrapper h4{
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 14px;
+text-transform: uppercase;
+text-align: center;
+color: #2d2d2d;
+margin-top: 5px;
+}
+@media (max-width:420px) {
+    .beautiful_wrapper{
+        display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 20px;
+    }
+    .beautiful_wrapper h4{
+     text-align: left;
+    }
+}

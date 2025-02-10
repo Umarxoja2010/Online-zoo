@@ -1,0 +1,204 @@
+.qiyshiq{
+    background-image: url("../images/gaadirbudr.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+height: 500px;
+}
+.qiyshiq_top h4{
+    font-family: var(--third-family);
+font-weight: 400;
+font-size: 24px;
+text-transform: uppercase;
+color: var(--white);
+padding-top: 50px;
+}
+.qiyshiq_top button{
+    margin-top: 80px;
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 18px;
+letter-spacing: -0.05em;
+text-transform: uppercase;
+color: var(--black);
+border-radius: 100px;
+width: 174px;
+height: 40px;
+background: var(--white);
+border: none;
+}
+.qiyshiq_top span{
+margin-right: -70px;
+display: block;
+}
+.qiyshiq_top button :hover{
+cursor: pointer;
+transform: scale(1.1);
+}
+
+.qiyshiq_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.qishiq_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top:90px;
+}
+.qiyshiq_card div{
+    border-radius: 100%;
+background-color: white;
+display: block;
+width: 100px;
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+margin-left: 35px;
+cursor: pointer;
+
+}
+.qiyshiq_card2 div{
+    border-radius: 100%;
+    background-color: white;
+    display: block;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-left: 65px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+.qiyshiq_card div:hover{
+transform: scale(1.1);
+}
+.qiyshiq_card2 div:hover{
+    transform: scale(1.1);
+    }
+    
+
+.qiyshiq_card2 p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    text-align: center;
+    color: var(--white);
+    display: block;
+    width: 70%;
+    margin-top: 15px;
+}
+.qiyshiq_card p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 143%;
+text-align: center;
+color: var(--white);
+display: block;
+width: 70%;
+margin-top: 15px;
+}
+.qiyshiq_card:nth-of-type(2){
+padding-top: 70px;
+}
+@media (max-width:1260px) {
+    .qiyshiq_top{
+        justify-content: center;
+        gap: 700px;
+    }
+}
+@media (max-width:1150px) {
+    .qiyshiq_top{
+        justify-content: center;
+        gap: 550px;
+    }
+}
+@media (max-width:1020px) {
+    .qiyshiq_top{
+        justify-content: center;
+        gap: 450px;
+    }
+}
+@media (max-width:910px) {
+    .qiyshiq_top{
+        justify-content: center;
+        gap: 350px;
+    }
+}
+@media (max-width:810px) {
+    .qiyshiq{
+        background-image: url("../images//gadirmobil.png");
+        width: 100%;
+    }
+    .qiyshiq_top h4{
+        margin-top: 100px;
+    }
+    .qiyshiq_top button{
+        margin-top: 150px;
+    }
+    .qiyshiq_card2 div{
+        margin-top: 0;
+    }
+.qiyshiq_top h4{
+    font-size: 20px;
+}
+    .qiyshiq_top button{
+        font-size: 16px;
+        width: 20%;
+    }
+    .qiyshiq_card p{
+        font-size: 12px;
+    }
+    .qiyshiq_card2 p{
+        font-size: 12px;
+    }
+    .qiyshiq_card div{
+        margin-left: 10px;
+    }
+    .qishiq_wrapper{
+        gap: 10px;
+    }
+}
+@media (max-width:740px) {
+    .qiyshiq_top{
+        gap: 250px;
+    }
+}
+@media (max-width:650px) {
+    .qiyshiq_top{
+        gap: 180px;
+    }
+}
+@media (max-width:575px) {
+    .qiyshiq{
+        background-image: url("../images/gadirminimobil.png");
+        height: 100%;
+    }
+    .qishiq_wrapper{
+        flex-direction: column;
+      
+    }
+    .qiyshiq_card{
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .qiyshiq_card2{
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .qiyshiq_top button{
+        display: none;
+    }
+    .qiyshiq_top h4{
+        text-align: left;
+        display: block;
+    }
+}

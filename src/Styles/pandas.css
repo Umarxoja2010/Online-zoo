@@ -1,0 +1,241 @@
+.pandas{
+    margin-top: 30px;
+    margin-bottom: -90px;
+}
+.pandas_wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.pandas_left{
+    width: 10%;
+}
+.pandas_right{
+    width: 90%;
+}
+.pandas_left img{
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.pandas_left img:hover{
+    transform: scale(1.1);
+}
+.pandos_right_top{
+    display: flex;
+    justify-content: space-between;
+}
+.pandos_right_top_div{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 34px;
+
+}
+.pandos_right_top_div img:hover{
+cursor: pointer;
+    transform: scale(1.1);
+}
+.pandos_right_top h2{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+text-transform: uppercase;
+color: var(--black);
+margin-bottom: 22px;
+}
+.pandas_right h6{
+    font-family: var(--third-family);
+font-weight: 400;
+font-size: 18px;
+text-transform: capitalize;
+color: var(--black);
+}
+.pandas_video{
+    border-radius: 19px;
+width: 1007px;
+height: 597px;
+display: block;
+background: rgba(0, 0, 0, 0.25);
+margin-top: 15px;
+margin-bottom: 26px;
+cursor: pointer;
+
+}
+.pandas_img_collecsiya{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.pandas_img_collecsiya img{
+    border-radius: 17px;
+width: 311px;
+height: 204px;
+background: rgba(0, 0, 0, 0.25);
+margin-top: 8px;
+margin-bottom: 50px;
+}
+.pandas_img_collecsiya img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.pandas_information{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.pandas_information h2{
+    font-family: var(--third-family);
+font-weight: 400;
+font-size: 24px;
+text-transform: uppercase;
+color: var(--black);
+margin-bottom: 24px;
+}
+.pandas_information_left span{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+color: var(--black);
+margin-bottom: 5px;
+display: block;
+}
+.pandas_information_left p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 143%;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: var(--black);
+display: block;
+margin-bottom: 35px;
+text-shadow: 0 4px 10px 0 var(--white);
+text-decoration: none;
+width: 70%;
+}
+.pandas_information_left a{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 143%;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: var(--black);
+text-shadow: 0 4px 10px 0 var(--white);
+margin-bottom: 35px;
+display: block;
+}
+.pandas_information_right div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+gap: 15px;
+}
+.pandas_information_right div img{
+    margin-bottom: 20px;
+}
+.pandas_information_right p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: var(--black);
+    margin-bottom: 15px;
+}
+.pandas_bottom img{
+    width: 100%;
+    display: block;
+}
+@media (max-width:1070px) {
+.pandas_video{
+    width: 97%;
+    height: 400px;
+}
+.pandas_img_collecsiya img{
+    width: 33%;
+}
+.pandas_img_collecsiya{
+    gap: 10px;
+}
+.pandas_bottom img{
+    width: 100%;
+}
+.pandas_wrapper{
+    gap: 20px;
+}
+}
+@media (max-width:700px) {
+    .pandas_information{
+        flex-direction: column;
+    }
+    .pandas_information p{
+        width: 100%;
+    }
+    .pandas_img_collecsiya_del{
+        display: none;
+    }
+    .pandas_img_collecsiya img{
+        width: 50%;
+    }
+}
+@media (max-width:600px) {
+.pandas_wrapper{
+    flex-direction: column;
+}
+.pandas_information_left{
+    width: 100%;
+}
+.pandas_information_right{
+    width: 100%;
+}
+.pandas_left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.pandas_video{
+    height: 300px;
+}
+}
+@media (max-width:400px) {
+    .pandas_wrapper{
+        gap: 10px;
+    }
+    .pandas_left{
+        gap: 10px;
+    }
+    .pandas_video{
+        height: 200px;
+    }
+ .pandas_information_left span{
+    font-size: 14px;
+ }
+ .pandas_information_left p{
+    font-size: 12px;
+ }
+ .pandas_information_right div{
+    gap: 5px;
+ }
+.pandos_right_top h2{
+    font-size: 18px;
+}
+.pandas_information_right p{
+    font-size: 12px;
+}
+.pandas_img_collecsiya_del1{
+    display: none;
+}
+.pandas_img_collecsiya img{
+    width: 100%;
+}
+.pandas_video{
+    width: 100%;
+}
+.pandas_left{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+margin-left: 50px;
+}
+}

@@ -1,0 +1,252 @@
+.petszoo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.pets_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.pets_top h2{
+    font-family: var(--third-family);
+font-weight: 400;
+font-size: 24px;
+text-transform: uppercase;
+color: var(--black);
+}
+.pets_top button{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: var(--bttn-lined);
+border: 1.50px solid var(--bttn-lined);
+border-radius: 100px;
+width: 303px;
+height: 40px;
+display: flex;
+align-items: center;
+gap: 15px;
+padding-left: 10px;
+padding-right: 10px;
+}
+.pets_top button:hover{
+    transform: scale(1.1);
+}
+.pets_wrapper{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.pets_left{
+    width: 95%;
+}
+.pets_right{
+    width: 5%;
+}
+.pets_left{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+.pets_card{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.pets_card_con{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+gap: 80px;
+}
+.pets_card_con h5{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 17px;
+color: #2d2d2d;
+margin-bottom: 5px;
+}
+.pets_card_con p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 13px;
+color: #909090;
+width: 80%;
+}
+.pets_card_con img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.pets_right img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.pets_card img:Hover{
+    cursor: pointer;
+transform: scale(1.1);
+
+}
+.pets_card4 img:Hover{
+    cursor: pointer;
+transform: scale(1.1);
+}
+.pets_card5 img:Hover{
+    cursor: pointer;
+transform: scale(1.1);
+}
+.pets_card6 img:Hover{
+    cursor: pointer;
+transform: scale(1.1);
+}
+.pets_right div{
+    display: block;
+    margin-top: 150px;
+}
+.rasm1111{
+    margin-top: 150px;
+}
+@media (max-width:800px) {
+    .pets_left{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px;
+    }
+    .pets_wrapper{
+        flex-direction: column;
+    }
+    .pets_right div{
+        margin-top: 0;
+    }
+    .rasm1111{
+        margin-top: 0;
+    }
+    .pets_right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+   gap: 400px;
+    }
+    .pets_right div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .pets_right div img{
+transform: rotate(180deg);
+    }
+    .pets_left {
+        width: 100%;
+        text-align: center;
+    }
+    .pets_left h5{
+        display: block;
+        margin-left: 120px;
+    }
+    .pets_left p{
+        display: block;
+  margin-left: 80px;
+    }
+}
+@media (max-width:700px) {
+
+    .pets_left_card {
+        width: 100%;
+    }
+    .pets_top button{
+        font-size: 14px;
+        width: 40%;
+    }
+    .pets_right{
+        gap: 200px;
+    }
+    .pets_left{
+        gap: 0px;
+    }
+    .pets_card_con{
+        gap: 50px;
+    }
+    .pets_card_con h5{
+        font-size: 14px;
+    }
+    .pets_card_con p{
+        font-size: 12px;
+    }
+    .pets_top h2{
+        font-size: 20px;
+    }
+
+}
+@media (max-width:600px) {
+    .pets_left_card {
+        width: 100%;
+    }
+    .pets_top button{
+        font-size: 12px;
+        width: 40%;
+    }
+    .pets_right{
+        gap: 100px;
+    }
+    .pets_left{
+        gap: 0px;
+    }
+    .pets_card_con{
+        gap: 30px;
+    }
+    .pets_card_con h5{
+        font-size: 12px;
+    }
+    .pets_card_con p{
+        font-size: 10px;
+    }
+    .pets_top h2{
+        font-size: 18px;
+    }
+    .pets_left h5{
+        margin-left: 80px;
+    }
+    .pets_left p{
+        margin-left: 50px;
+    }
+}
+@media (max-width:430px) {
+    .pets_left{
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+   gap: 0;
+    }
+    .pets_card4{
+display: none;
+    }
+    .pets_card5{
+display: none;
+    }
+    .pets_card6{
+display: none;
+    }
+.pets_card_con{
+    text-align: center;
+    display: block;
+}
+.pets_left h5{
+    margin-left: 0;
+}
+.pets_left p{
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.pets_top button{
+    font-size: 10px;
+}
+.tvvvt{
+    display: none;
+}
+.pets_top img{
+    display: none;
+}
+}
