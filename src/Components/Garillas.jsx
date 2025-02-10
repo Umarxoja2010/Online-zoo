@@ -44,8 +44,8 @@ function Garillas() {
 <h6>Side cameras</h6>
 <div className="pandas_img_collecsiya">
     <img src={rasm7} alt="" />
-    <img src={rasm8} alt="" />
-    <img src={rasm9} alt="" />
+    <img className='pandas_img_collecsiya_del1' src={rasm8} alt="" />
+    <img className='pandas_img_collecsiya_del' src={rasm9} alt="" />
 </div>
 <div className="pandas_information">
     <div className="pandas_information_left">

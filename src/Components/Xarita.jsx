@@ -4,15 +4,21 @@ import rasm1 from "../images/xarita.png"
 import rasm2 from "../images/plus.png"
 import rasm3 from "../images/mnus.png"
 function Xarita() {
-    const[zoom,setzoom] = useState(1)
+const[zoom,setzoom] = useState(1)
     let karta =useRef ()
     function zoomOut () {
-  karta.current.style. transform= `scale(${zoom})`
-setzoom((prev) => prev+0.2)
+      if (karta.current) {
+        karta.current.style.transform = `scale(${zoom})`;
+      }
+      
+setzoom((prev)=>prev+0.2)
     }
     function zoomIn () {
-  karta.current.style. transform= `scale(${zoom})`
-setzoom((prev) => prev-0.2)
+      if (karta.current) {
+        karta.current.style.transform = `scale(${zoom})`;
+      }
+      
+setzoom((prev)=>prev-0.2)
 
     }
   return (
